@@ -7,5 +7,5 @@
 
 
 <p align="center">
-    <img align="center" alt="Discordev" height="360px" src="ttps://upload.wikimedia.org/wikipedia/commons/b/b5/Discord_Active_Developer_Badge.svg" />
+    <a href="https://es.vecteezy.com/png/18930718-discordia-logo-png-discordia-icono-transparente-png">discordia-logo-png-discordia-icono-transparente-png PNGs por Vecteezy</a>
 </p>
