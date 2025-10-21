@@ -81,8 +81,8 @@ Discord lleva tiempo dando esta insignia a aquellos que logren crear su primer b
 1. Dirígete a [OAuth2](https://discord.com/developers/applications/1429576649409691709/oauth2).  
 2. Marca las casillas:  
    - ✅ **application.commands**  
-   - ✅ **bot**  
-3. En los permisos del bot, activa **Send Messages**.  
+   - ✅ **bot**
+   - ✅ **Send Messages**  
 4. Desplázate hasta la parte inferior, copia la **Generated URL**.  
 5. Pega la URL en tu navegador: se abrirá una invitación para agregar el bot a tu servidor.
 
