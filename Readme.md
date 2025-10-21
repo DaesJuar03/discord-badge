@@ -7,5 +7,5 @@
 
 
 <p align="center">
-    <img align="center" alt="Discordev" height="360px" src="https://img.freepik.com/premium-vector/modern-badge-discord-icon_578229-169.jpg?semt=ais_hybrid&w=740&q=80" />
+    <img align="center" alt="Discordev" height="360px" src="ttps://upload.wikimedia.org/wikipedia/commons/b/b5/Discord_Active_Developer_Badge.svg" />
 </p>
