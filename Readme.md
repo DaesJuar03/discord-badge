@@ -23,35 +23,56 @@ Discord lleva tiempo dando esta insignia a aquellos que logren crear su primer b
 <img align="right" height="270px" alt="GIF" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Discord_Active_Developer_Badge.svg" />
  
 ### Paso 1. Crear el bot
-1. Ingresamos al portal [.dev](https://discord.com/developers/applications)
-   - En este sitio nos logueamos con nuestra cuenta de discord, el sitio es seguro.
-   - Logueados en el apartado de Applications le daremos al boton de New Application, le ponemos un nombre a nuestro bot, aceptamos terminos y le damos a create.
-   - Ya creado nos dirigimos a la opcion de Bot, buscamos el apartado de **PRECENSE INTENT**,**SERVER MEMBERS INTENT**,**MESSAGE CONTENT INTENT**. Esas 3 Opciones les activamos sus persmiso, damos a **Save Changes**.
-2. Ingresar al sitio web [replt](https://replit.com/) 
-   - En este sitio web tenemos que registarnos, ya sea con nuestra cuenta de github o con un correo electronico, es importante mencionar que esta cuenta de este sitio web la linkearemos a nuestro discord.
-   - Una vez creada la cuenta, damos click en el apartado de app y damos click en el boton de **create**
-   - En esta parte bautizamos a nuestro bot con el nombre que gusten, de ahi les puede salir un chat de la ia de la pagina, pueden explicarle ahi mismo que necesitan un bot para discord o si les sale la opcion de **Developer Frameworks** y buscar el template de **Node.js**, le ponen un nombre al proyecto y listo.
-   - Despues de que el proyecto se haya creado les saldra un archivo JavaScript, el index.js. Copiamos y pegamos lo del repositorio, el mismo archivo que se llama index.js toman lo que contiene y lo pegan en la pagina.
-   - En la vista de archivos en la pagina, buscamos 3 puntitos y le damos click, le damos a create file y llamamos el nuevo archivo como **".env"**. Creado tambien repetimos el paso anterior, buscamos en el repositorio el archivo .env y copiamos su contenido y lo pegamos en la pagina.
+1. Ingresar al portal [.dev](https://discord.com/developers/applications)
+   - En este sitio iniciamos sesión con nuestra cuenta de Discord (el sitio es seguro).
+   - Una vez dentro, en el apartado **Applications**, hacemos clic en **New Application**, asignamos un nombre al bot, aceptamos los términos y presionamos **Create**.
+   - Ya creado, vamos a la opción **Bot**, y en el apartado de **PRESENCE INTENT**, **SERVER MEMBERS INTENT** y **MESSAGE CONTENT INTENT**, activamos los tres permisos.
+   - Finalmente, damos clic en **Save Changes** para guardar.
+
+2. Ingresar al sitio web [Replit](https://replit.com/)
+   - En este sitio debemos registrarnos (con GitHub o correo electrónico). Esta cuenta se vinculará a nuestro bot de Discord.
+   - Una vez creada la cuenta, hacemos clic en **Create** dentro del apartado de aplicaciones.
+   - Asignamos un nombre al proyecto. Si aparece el chat de IA, podemos indicarle que deseamos crear un bot de Discord.
+   - Si se muestra la opción **Developer Frameworks**, seleccionamos la plantilla **Node.js** y asignamos un nombre al proyecto.
+   - Cuando el proyecto esté creado, se mostrará el archivo `index.js`. Copiamos y pegamos en él el contenido del archivo `index.js` del repositorio.
+   - Luego, en la vista de archivos, damos clic en los tres puntos y seleccionamos **Create File**, nombrándolo **.env**.
+   - Abrimos este archivo y copiamos en él el contenido del `.env` del repositorio.
+
 3. Buscar cada ID correspondiente.
-   - Como ven. en el .env necesitamos tomar los id de nuestro discord, en estos lugares conseguiran cada uno.
-4. Token Bot
+   - Como se observa en el archivo `.env`, necesitaremos obtener algunos identificadores de Discord.
+
+4. Token del Bot
    - [Token](https://discord.com/developers/applications/1429576649409691709/bot)
-   - En la pagina buscan el titulo de **Token** y le dan boton de reset, les pedire la autenticacion de dos pasos, despues de realizarla les soltara el token. Copian y pegan en el archivo.
+   - En la página buscamos el apartado **Token**, damos clic en **Reset Token**, completamos la autenticación de dos pasos y copiamos el nuevo token.
+   - Pegamos este token en el archivo `.env`.
+
 5. CLIENT_ID
    - [CLIENT_ID](https://discord.com/developers/applications/1429576649409691709/information)
-   - En la pagina buscan el titulo de **APPLICATION ID** y le dan al boton de copy y lo pegan en el archivo .env.
+   - En la página buscamos el apartado **APPLICATION ID**, damos clic en **Copy** y lo pegamos en el archivo `.env`.
+
 6. GUILD_ID
-   - En este apartado deberemos de tener activado en nuestra cuenta de discord el **Modo Desarrollador**.
-   - Una vez activado le damos click derecho a nuestro servidor y le damos a la opcion de **copiar id del servidor** y lo pegan al archivo .env.
-### Paso 2. Darle permisos.
+   - Para obtener este ID, debemos tener activado el **Modo Desarrollador** en Discord.
+   - Una vez activado, hacemos clic derecho en nuestro servidor y seleccionamos **Copiar ID del servidor**.
+   - Pegamos el valor en el archivo `.env`.
+
+---
+
+### Paso 2. Darle permisos
 1. Permisos.
-   - En el apartado de [OAuth2](https://discord.com/developers/applications/1429576649409691709/oauth2). Buscamos y le damos permiso en **application.commands** y **bot** tambien mas abajo le damos a **send message**.
-   - En la misma pagina hasta abajo hay un apartado llamado **Generated URL**. Le damos a copy, lo pegamos en nuestro navegador, es una invitacion, buscamos nuestro servidor y lo agregamos ahi.
+   - En el apartado [OAuth2](https://discord.com/developers/applications/1429576649409691709/oauth2), activamos los permisos **application.commands** y **bot**.
+   - Más abajo, en los permisos del bot, marcamos **Send Messages**.
+   - En la parte inferior de la página, encontraremos un apartado llamado **Generated URL**. Damos clic en **Copy**, pegamos la URL en el navegador y seleccionamos nuestro servidor para agregar el bot.
+
 2. Encender el bot.
-   - Nos devolvemos a [replt](https://replit.com/) y damos click al boton de Run, pueden checar en su servidor si el bot esta Encendido.
-### Paso 3. Conseguir insignia.
-1. Ir a la pagina de developers de discord.
-   - Ir a [DiscordDev](https://discord.com/developers/active-developer)
+   - Regresamos a [Replit](https://replit.com/) y hacemos clic en el botón **Run**.
+   - Verificamos en nuestro servidor de Discord que el bot esté en línea.
+
+---
+
+### Paso 3. Conseguir insignia
+1. Ir a la página de desarrolladores de Discord.
+   - Accedemos a [DiscordDev](https://discord.com/developers/active-developer)
+   - Seguimos las instrucciones en el sitio para reclamar la insignia de **Desarrollador Activo**.
+
 La insignia toma tiempo en que te llegue, de 24 a 48 horas, asi que deben de visitar seguido la pagina, despues de cierto tiempo les aparecera y es todo.
 
