@@ -50,5 +50,8 @@ Discord lleva tiempo dando esta insignia a aquellos que logren crear su primer b
    - En la misma pagina hasta abajo hay un apartado llamado **Generated URL**. Le damos a copy, lo pegamos en nuestro navegador, es una invitacion, buscamos nuestro servidor y lo agregamos ahi.
 2. Encender el bot.
    - Nos devolvemos a [replt](https://replit.com/) y damos click al boton de Run, pueden checar en su servidor si el bot esta Encendido.
-
+### Paso 3. Conseguir insignia.
+1. Ir a la pagina de developers de discord.
+   - Ir a [DiscordDev](https://discord.com/developers/active-developer)
+La insignia toma tiempo en que te llegue, de 24 a 48 horas, asi que deben de visitar seguido la pagina, despues de cierto tiempo les aparecera y es todo.
 
